@@ -1,0 +1,16 @@
+.container{
+  z-index: 100;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: var(--menuWidth);
+  height: 100%;
+  background-color: var(--darkblack);
+}
+
+
+.logo{
+  color: #2bd486;
+  font-size: 2rem;
+  text-orientation: upright;
+}
