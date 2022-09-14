@@ -1,16 +1,17 @@
-import { ParallaxLayer } from '@react-spring/parallax'
-import styled from 'styled-components'
+import { ParallaxLayer } from '@react-spring/parallax';
+import styled from 'styled-components';
 
 const Container = styled.div`
   width: 100%;
   height: 100%;
+  opacity: 0;
   background-color: whitesmoke;
-`
+`;
 const Footer = styled.div`
   width: 100%;
   height: 10rem;
   background-color: blue;
-`
+`;
 
 function ThirdPage() {
   return (
@@ -21,7 +22,7 @@ function ThirdPage() {
         <Footer></Footer>
       </ParallaxLayer>
     </>
-  )
+  );
 }
 
-export default ThirdPage
+export default ThirdPage;

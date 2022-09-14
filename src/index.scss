@@ -34,16 +34,22 @@ code {
   --dark1: #fbfbfb;
   --shadow0: 0px 0px 20px rgba(0, 0, 0, 0.192);
   --black: #1d1d1d;
+  --red: #fd2155;
   --lightblack: #262626;
   --darkblack: #100f0f;
   --menuWidth: 8rem;
   --lightBlue: #05fdd8;
   --textshadow: 0 -1px #555555, 0 -2px #555555, 0 -3px #555555, 0 -4px #555555,
     0 -5px #555555, 0 -6px #555555, 0 -7px #555555, 0 -8px #555555;
+  --boxShadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%),
+    0 1px 10px 0 rgb(0 0 0 / 12%);
 }
 
 html {
   background-color: #1d1d1d;
+}
+body {
+  font-family: Montserrat;
 }
 
 .test {

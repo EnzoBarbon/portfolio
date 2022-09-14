@@ -1,35 +1,33 @@
 .customshapedividerbottom {
   z-index: 10;
-    position: absolute;
-    top:  95vh;
-    width:calc( 100% - var(--menuWidth));
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  top: 95vh;
+  width: calc(100% - var(--menuWidth));
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .customshapedividerbottom svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 63px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 63px;
 }
 
 .customshapedividertop {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width:calc( 100% - var(--menuWidth));
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100% - var(--menuWidth));
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .customshapedividertop svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 98px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 98px;
 }
-
-
